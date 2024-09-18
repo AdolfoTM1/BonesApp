@@ -1,4 +1,6 @@
 import pandas as pd
+from sklearn.ensemble import RandomForestClassifier
+from sklearn.model_selection import train_test_split
 df_femur = pd.read_excel('FEMUR.xlsx', sheet_name='Femur') # Added decimal=',' to handle comma as decimal separator
 df_tibia = pd.read_excel('FEMUR.xlsx', sheet_name='Tibia') # Added decimal=',' to handle comma as decimal separator
 df_humero = pd.read_excel('FEMUR.xlsx', sheet_name='Humero') # Added decimal=',' to handle comma as decimal separator
