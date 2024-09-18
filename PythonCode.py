@@ -1,3 +1,4 @@
+import pandas as pd
 df_femur = pd.read_excel('FEMUR.xlsx', sheet_name='Femur') # Added decimal=',' to handle comma as decimal separator
 df_tibia = pd.read_excel('FEMUR.xlsx', sheet_name='Tibia') # Added decimal=',' to handle comma as decimal separator
 df_humero = pd.read_excel('FEMUR.xlsx', sheet_name='Humero') # Added decimal=',' to handle comma as decimal separator
